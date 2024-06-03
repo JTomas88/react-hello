@@ -13,7 +13,7 @@ const Cards = ({ tituloFoto, textoFoto, imagen }) => {
                     <p className="card-text textoTarjeta">{textoFoto}</p>
                 </div>
                 <div className="card-footer d-flex justify-content-center">
-                    <a href="#" className="btn btn-primary">Saber más</a>
+                    <a href="#" className="btn btn-primary btn-lg btn-block w-auto">Saber más</a>
                 </div>
             </div>
         </div>
