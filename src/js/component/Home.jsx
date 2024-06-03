@@ -35,52 +35,45 @@ const Home = () => {
 			<Menu
 				menu={menu}
 			/>
+
 			<Junbotron
 				titleJunbo={junboTitle}
 				textJunbo={junboText}
 			/>
 
 			{/* ----- COMIENZO DE LAS CARDS ----- */}
-			<div className="container-fluid contenedorFLuido">
-				<div className="d-flex grupo">
-					<div className="col espaciado">
-						<Cards
-							imagen={desierto1}
-							tituloFoto={cardTitleOne}
-							textoFoto={cardTextOne}
-						/>
-					</div>
-
-					<div className="col espaciado">
-						<Cards
-							imagen={desierto2}
-							tituloFoto={cardTitleTwo}
-							textoFoto={cardTextTwo}
-						/>
-					</div>
-
-					<div className="col espaciado">
-						<Cards
-							imagen={desierto3}
-							tituloFoto={cardTitleThree}
-							textoFoto={cardTextThree}
-						/>
-					</div>
-					<div className="col espaciado">
-						<Cards
-							imagen={desierto4}
-							tituloFoto={cardTitleFour}
-							textoFoto={cardTextFour}
-						/>
-					</div>
-
+			<div className="container-fluid contenedor-cards">
+				<div className="row fila-cartas">
+					<Cards
+						imagen={desierto1}
+						tituloFoto={cardTitleOne}
+						textoFoto={cardTextOne}
+					/>
+					<Cards
+						imagen={desierto2}
+						tituloFoto={cardTitleTwo}
+						textoFoto={cardTextTwo}
+					/>
+					<Cards
+						imagen={desierto3}
+						tituloFoto={cardTitleThree}
+						textoFoto={cardTextThree}
+					/>
+					<Cards
+						imagen={desierto4}
+						tituloFoto={cardTitleFour}
+						textoFoto={cardTextFour}
+					/>
 				</div>
-
-
 			</div>
 
 
-		</body>
+
+
+
+
+
+		</body >
 	);
 };
 

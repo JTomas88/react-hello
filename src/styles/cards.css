@@ -1,52 +1,29 @@
+.contenedor-cards {
+    max-width: 98%;
+    margin: 0 auto; 
+}
 
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
 
-.tarjeta{
-    height: 697px;
-    width: 89%;
+.img-container {
+    width: 100%;
+    height: 350px;
     overflow: hidden;
 }
 
-.tituloTarjeta{
-    font-size: 26px
+.imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.textoTarjeta{
-    font-size: 18px;
+.fila-cartas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-
-.imagen{
-    height: 325px;
-    width: 450px;
-    object-position: top;
-    object-fit: cover;    
-}
-
-.col{
-    margin-left: 2%;
-}
-
-
-.card-footer{
-    background-color: white;
-}
-
-.grupo{
-    flex-direction: row;   
-}
-
-@media (max-width: 576px) {
-    .grupo{
-        flex-direction: column;
-    }
-    .espaciado{
-        margin-bottom: 1%;
-    }
-}
-
-/* @media (max-width: 576px) {
-    .tarjetas{
-        height: 700px;
-        width: 200px;
-        overflow: hidden;
-    }
-} */

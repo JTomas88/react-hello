@@ -3,7 +3,7 @@ import '../../styles/junbotron.css';
 
 const Junbotron = ({ titleJunbo, textJunbo }) => {
     return (
-        <div className="container-fluid mt-4 mb-4">
+        <div className="container-fluid mt-4 mb-4 contenedor-Junbotron">
             <div className="card p-1 ">
                 <div className="card-body junbotron">
                     <h1 className="card-title text-start">{titleJunbo}</h1>
