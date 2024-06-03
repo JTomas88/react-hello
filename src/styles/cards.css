@@ -1,0 +1,52 @@
+
+
+.tarjeta{
+    height: 697px;
+    width: 89%;
+    overflow: hidden;
+}
+
+.tituloTarjeta{
+    font-size: 26px
+}
+
+.textoTarjeta{
+    font-size: 18px;
+}
+
+.imagen{
+    height: 325px;
+    width: 450px;
+    object-position: top;
+    object-fit: cover;    
+}
+
+.col{
+    margin-left: 2%;
+}
+
+
+.card-footer{
+    background-color: white;
+}
+
+.grupo{
+    flex-direction: row;   
+}
+
+@media (max-width: 576px) {
+    .grupo{
+        flex-direction: column;
+    }
+    .espaciado{
+        margin-bottom: 1%;
+    }
+}
+
+/* @media (max-width: 576px) {
+    .tarjetas{
+        height: 700px;
+        width: 200px;
+        overflow: hidden;
+    }
+} */
