@@ -30,7 +30,10 @@ const Home = () => {
     const cardTitleFour = "Desierto de Tabernas";
     const cardTextFour = "Desde los años 60, el Desierto de Tabernas ha sido el escenario de miles de rodajes cinematográficos y publicitarios, lo que le ha llevado a ser conocido como el 'Hollywood europeo'. Por sus áridos parajes han pasado algunos de los más prestigiosos actores y directores del mundo del cine, como son los casos de Steven Spielberg, Sergio Leone...";
     const footerText = "Copyright © Your WebSite 2024";
-
+    const enlaceDesierto1 ="https://viajes.nationalgeographic.com.es/a/atacama-no-es-desierto-mas_15111";
+    const enlaceDesierto2 = "https://www.ngenespanol.com/el-mundo/arabia-no-siempre-fue-un-desierto-los-humanos-prehistoricos-se-establecieron-en-sus-areas-verdes/";
+    const enlaceDesierto3 = "https://www.ngenespanol.com/naturaleza/hace-miles-de-anos-el-desierto-del-sahara-era-un-bosque/";
+    const enlaceDesierto4 = "https://es.wikipedia.org/wiki/Desierto_de_Tabernas";
 
     return (
         <body>
@@ -50,21 +53,25 @@ const Home = () => {
                         imagen={desierto1}
                         tituloFoto={cardTitleOne}
                         textoFoto={cardTextOne}
+                        enlace={enlaceDesierto1}
                     />
                     <Cards
                         imagen={desierto2}
                         tituloFoto={cardTitleTwo}
                         textoFoto={cardTextTwo}
+                        enlace={enlaceDesierto2}
                     />
                     <Cards
                         imagen={desierto3}
                         tituloFoto={cardTitleThree}
                         textoFoto={cardTextThree}
+                        enlace={enlaceDesierto3}
                     />
                     <Cards
                         imagen={desierto4}
                         tituloFoto={cardTitleFour}
                         textoFoto={cardTextFour}
+                        enlace={enlaceDesierto4}
                     />
                 </div>
             </div>
